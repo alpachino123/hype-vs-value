@@ -1,0 +1,56 @@
+# ============================================================
+# Hype vs. Value — Git Ignore
+# ============================================================
+
+# --- NEVER UPLOAD THESE ---
+.env
+*.env
+secrets.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Data files (too large for Git)
+*.csv
+!data/sample_*.csv          # Allow small sample CSVs only
+*.parquet
+*.db
+*.sqlite
+
+# Output folders
+output/
+logs/
+
+# Power BI temp files
+*.pbix.lock
+
+# OS garbage
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+import requests.py
+missing_tickers.txt
+
+# Power BI files (too large for GitHub)
+*.pbix
+*.pbix.lock
