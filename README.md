@@ -60,3 +60,7 @@ The core of this research is the Hype Score, a simple yet powerful ratio:
 
 ## 📬 Contact
 Developed by **Yosef Anteneh** - Feel free to reach out for collaboration or inquiries regarding the methodology.
+
+https://github.com/user-attachments/assets/63a291cb-4383-424d-a237-d94fff5ab559
+
+
